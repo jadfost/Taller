@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Búsqueda de texto</title>
+  <link rel="stylesheet" href="Home/Css/style.css">
+</head>
+<body>
+	<section class="container">
+		<header>
+			<h1>Búsqueda de texto</h1>
+		</header>
+		<main>
+			<section>
+				<label for="texto">Texto:</label>
+				<textarea id="texto" rows="10"></textarea>
+			</section>
+			<section>
+				<label for="busqueda">Búsqueda:</label>
+				<input type="text" id="busqueda">
+			</section>
+			<section>
+				<button onclick="buscarTexto()">Buscar</button>
+			</section>
+			<section>
+				<p id="resultados"></p>
+			</section>
+		</main>
+		<button id="inicio" class="button">Inicio</button>
+    	<button id="next" class="button">Siguiente Ejercicio</button>
+	</section>
+	<script src="Home/Js/script6.js"></script>
+</body>
+</html>

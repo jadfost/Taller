@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calcular promedio de notas</title>
+    <link rel="stylesheet" href="Home/Css/style.css">
+  </head>
+  <body>
+    <section class="container">
+      <h1>Calcular promedio de notas</h1>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="materia">Materia:</label>
+        <input type="text" id="materia" required>
+
+        <label for="nota1">Nota 1:</label>
+        <input type="number" id="nota1" min="0" max="5" step="0.1" required>
+
+        <label for="nota2">Nota 2:</label>
+        <input type="number" id="nota2" min="0" max="5" step="0.1" required>
+
+        <label for="nota3">Nota 3:</label>
+        <input type="number" id="nota3" min="0" max="5" step="0.1" required>
+
+        <button type="button" onclick="calcularPromedio()">Calcular promedio</button>
+        <section id="resultado"></section>
+      </form>
+      <button id="inicio" class="button">Inicio</button>
+      <button id="next" class="button">Siguiente Ejercicio</button>      
+    </section>
+    <script src="Home/Js/script4.js"></script>
+  </body>
+</html>
